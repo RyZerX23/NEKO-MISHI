@@ -217,8 +217,7 @@ body {
   #libro {
     width: 95%;
     height: 420px;
-    /* Subimos más usando calc para dejar espacio a los botones */
-    margin-top: calc(40vh - 210px - 50px); /* antes 50vh, ahora 40vh para subir más */
+    margin-top: 5px; /* aún más arriba */
     perspective: 1200px;
   }
 
@@ -274,8 +273,8 @@ body {
 ========================== */
 @media (max-width: 480px) {
   #libro {
-    height: 360px;
-    margin-top: calc(35vh - 180px - 50px); /* antes 50vh, ahora 35vh para subir más */
+    height: 660px;
+    margin-top: 0px; /* pegado casi al tope */
   }
 
   #abrirMenu {
