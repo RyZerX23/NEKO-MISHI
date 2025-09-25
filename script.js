@@ -76,3 +76,4 @@ function pasarPagina(direccion) {
 
 next.addEventListener('click', () => pasarPagina('next'));
 prev.addEventListener('click', () => pasarPagina('prev'));
+
